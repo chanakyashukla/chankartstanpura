@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="@drawable/chanakya_chankarts_tanpura_app_background_make_in_india">
+
+    <Button
+        android:id="@+id/button_sound1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="playSound"
+        android:text="sa - sa" />
+
+    <Button
+        android:id="@+id/button_sound2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="playSound"
+        android:text="sa - ma" />
+
+    <Button
+        android:id="@+id/button_sound3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="playSound"
+        android:text="sa - pa" />
+
+    <Button
+        android:id="@+id/button_sound4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="playSound"
+        android:text="sa - ni" />
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="playSound"
+        android:text="reset" />
+
+</LinearLayout>
